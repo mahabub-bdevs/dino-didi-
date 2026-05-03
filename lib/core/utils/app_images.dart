@@ -4,13 +4,13 @@ class ImagePath {
   static const String blueLight = "${asset}blue_light.png";
   static const String dailRoutine = "${asset}daily_rutine.png";
   static const String goodNight = "${asset}good_night.png";
-  static const String didiTheExplorer = "${asset}Didi_the_explorer.svg";
+  static const String didiTheExplorer = "${asset}didi_the_explorer.svg";
   static const String teeth = "${asset}teeth.png";
   static const String animalsBox = "${asset}animals_box_image.png";
   static const String animalItem = "${asset}animals_item.png";
   static const String colorbox = "${asset}color_box_image.png";
   static const String colorItem = "${asset}color_item.png";
-  static const String DidiTheExplorer = "${asset}Didi_the_explorer.svg";
+  static const String DidiTheExplorer = "${asset}didi_the_explorer.svg";
   static const String lockIcon = "${asset}lock_icon.svg";
   static const String numberBox = "${asset}number_box_image.png";
   static const String numberItem = "${asset}number_item.png";
