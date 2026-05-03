@@ -8,7 +8,7 @@ import '../../../core/utils/app_size_class.dart';
 import '../../../core/widgets/custom_svg_icon.dart';
 import '../../../core/widgets/custom_text.dart';
 import '../../../routes/app_routes.dart';
-import '../controller/home_Controller.dart';
+import '../controller/home_controller.dart';
 
 class HomeAgeVTwoScreens extends StatelessWidget {
   const HomeAgeVTwoScreens({super.key});

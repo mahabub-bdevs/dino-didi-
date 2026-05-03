@@ -1,6 +1,6 @@
 import 'package:dino_dadi_app/core/core.dart';
 import 'package:dino_dadi_app/core/widgets/custome_container.dart';
-import 'package:dino_dadi_app/features/home/controller/home_Controller.dart';
+import 'package:dino_dadi_app/features/home/controller/home_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

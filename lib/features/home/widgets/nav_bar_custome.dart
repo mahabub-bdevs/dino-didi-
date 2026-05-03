@@ -1,4 +1,4 @@
-import 'package:dino_dadi_app/features/home/controller/home_Controller.dart';
+import 'package:dino_dadi_app/features/home/controller/home_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -28,31 +28,30 @@ class NavBarCustom extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             GestureDetector(
-              child:
-                  Container(
-                    height: getHeight(AppDimensions.containerHeight70),
-                    width: getWidth(AppDimensions.containerWeight70),
-                    margin: EdgeInsets.symmetric(
-                      horizontal: getWidth(AppDimensions.space19),
-                    ),
-                    decoration: BoxDecoration(
-                      shape: BoxShape.circle,
-                      color: AppColors.elevatedSurfaceLight,
-                      image: DecorationImage(
-                        image: AssetImage(ImagePath.navBarImage),
-                      ),
-                    ),
-                    child: Center(
-                      child: SizedBox(
-                        height: getHeight(AppDimensions.imageHeight45),
-                        width: getWidth(AppDimensions.imageWeight46),
-                        child: Image.asset(
-                          item['imagePath'] ?? '',
-                          fit: BoxFit.contain,
-                        ),
-                      ),
+              child: Container(
+                height: getHeight(AppDimensions.containerHeight70),
+                width: getWidth(AppDimensions.containerWeight70),
+                margin: EdgeInsets.symmetric(
+                  horizontal: getWidth(AppDimensions.space19),
+                ),
+                decoration: BoxDecoration(
+                  shape: BoxShape.circle,
+                  color: AppColors.elevatedSurfaceLight,
+                  image: DecorationImage(
+                    image: AssetImage(ImagePath.navBarImage),
+                  ),
+                ),
+                child: Center(
+                  child: SizedBox(
+                    height: getHeight(AppDimensions.imageHeight45),
+                    width: getWidth(AppDimensions.imageWeight46),
+                    child: Image.asset(
+                      item['imagePath'] ?? '',
+                      fit: BoxFit.contain,
                     ),
                   ),
+                ),
+              ),
             ),
 
             CustomText(

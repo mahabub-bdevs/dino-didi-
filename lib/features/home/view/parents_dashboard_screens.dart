@@ -1,15 +1,15 @@
 import 'package:dino_dadi_app/core/core.dart';
 import 'package:dino_dadi_app/core/widgets/custome_container.dart';
-import 'package:dino_dadi_app/features/home/controller/home_Controller.dart';
+import 'package:dino_dadi_app/features/home/controller/home_controller.dart';
 import 'package:dino_dadi_app/routes/app_routes.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../../../core/widgets/Custom_learning_activity-card.dart';
+import '../../../core/widgets/custom_learning_activity-card.dart';
 import '../../../core/widgets/custom_title_parents_dashboard_appbar.dart';
-import '../../../core/widgets/custom_update_to_Premium_card.dart';
+import '../../../core/widgets/custom_update_to_premium_card.dart';
 import '../../../core/widgets/custome_daily_screens_time_card.dart';
-import '../../../core/widgets/progress_Painter.dart';
+import '../../../core/widgets/progress_painter.dart';
 
 class ParentsDashbord extends StatelessWidget {
   const ParentsDashbord({super.key});

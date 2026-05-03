@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
 import 'package:get/get_instance/src/bindings_interface.dart';
 
-import '../features/home/controller/home_Controller.dart';
+import '../features/home/controller/home_controller.dart';
 
 class AppBinding extends Bindings {
   @override

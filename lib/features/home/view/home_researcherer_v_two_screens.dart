@@ -1,5 +1,5 @@
 import 'package:dino_dadi_app/core/core.dart';
-import 'package:dino_dadi_app/features/home/controller/home_Controller.dart';
+import 'package:dino_dadi_app/features/home/controller/home_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../../../core/widgets/custome_container.dart';
@@ -13,8 +13,8 @@ class HomeResearchererVTwoScreens extends StatelessWidget {
     final controller = Get.find<HomeController>();
     return Scaffold(
       body: Container(
-        height: double.infinity,
-        width: double.infinity,
+        // height: double.infinity,
+        // width: double.infinity,
         decoration: BoxDecoration(
           gradient: LinearGradient(
             colors: [

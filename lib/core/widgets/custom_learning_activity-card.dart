@@ -1,6 +1,6 @@
 import 'dart:ffi' hide Size;
 
-import 'package:dino_dadi_app/core/widgets/progress_Painter.dart';
+import 'package:dino_dadi_app/core/widgets/progress_painter.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_utils/src/extensions/internacionalization.dart';
 

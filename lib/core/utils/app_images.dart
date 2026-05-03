@@ -33,7 +33,7 @@ class ImagePath {
   static const String moon = "${asset}moon.svg";
   static const String lampCharge = "${asset}lamp_charge.svg";
   static const String timer = "${asset}timer.svg";
-  static const String aLetter = "${asset}A_letters_image.png";
+  static const String aLetter = "${asset}a_letters_image.png";
   static const String animalLearningImage = "${asset}animal_learning_image.png";
   static const String dinoLittleImage = "${asset}dino_little_image.png";
 
