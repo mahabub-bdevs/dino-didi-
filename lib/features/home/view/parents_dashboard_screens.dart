@@ -125,7 +125,7 @@ class ParentsDashbord extends StatelessWidget {
               ),
               SizedBox(height: getHeight(AppDimensions.space8)),
               SizedBox(
-                height: 500,
+                height: getHeight(AppDimensions.containerHeight500),
                 child: GridView.builder(
                   physics: NeverScrollableScrollPhysics(),
                   gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(

@@ -16,7 +16,8 @@ class HomeScreensItemCardCustom extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final controller = Get.find<HomeController>();
-    return Expanded(
+    //using Expanded
+    return SizedBox(
       child: Padding(
         padding: EdgeInsets.only(
           left: getWidth(AppDimensions.padding16),
@@ -60,8 +61,8 @@ class HomeScreensItemCardCustom extends StatelessWidget {
                                 margin: EdgeInsetsGeometry.only(
                                   right: AppDimensions.padding14,
                                 ),
-                                height: getHeight(24),
-                                width: getWidth(24),
+                                height: getHeight(AppDimensions.imageHeight24),
+                                width: getWidth(AppDimensions.imageWeight24),
                                 decoration: BoxDecoration(
                                   boxShadow: [
                                     BoxShadow(
@@ -136,7 +137,7 @@ class HomeScreensItemCardCustom extends StatelessWidget {
                                 width: getWidth(
                                   AppDimensions.containerWeight70,
                                 ),
-                                margin: EdgeInsets.symmetric(horizontal: 19),
+                                margin: EdgeInsets.symmetric(horizontal: AppDimensions.padding18),
                                 decoration: BoxDecoration(
                                   shape: BoxShape.circle,
                                   color: AppColors.elevatedSurfaceLight,

@@ -2,10 +2,6 @@ import 'package:dino_dadi_app/core/core.dart';
 import 'package:dino_dadi_app/routes/app_routes.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import '../../../core/theme/app_dimensions.dart';
-import '../../../core/utils/app_images.dart';
-import '../../../core/utils/app_size_class.dart';
-import '../../../core/widgets/custom_svg_icon.dart';
 import '../../../core/widgets/custome_container.dart';
 import '../widgets/home_researcherer_custome.dart';
 
@@ -59,7 +55,9 @@ class HomeResearchererScreens extends StatelessWidget {
                     right: 0,
                     top: 120,
                     child: Padding(
-                      padding: const EdgeInsets.symmetric(horizontal: 75),
+                      padding: EdgeInsets.symmetric(
+                        horizontal: getWidth(AppDimensions.padding75),
+                      ),
                       child: Image.asset(
                         ImagePath.skyImage,
                         height: getHeight(140),
@@ -93,7 +91,7 @@ class HomeResearchererScreens extends StatelessWidget {
 
             SizedBox(height: getHeight(AppDimensions.space10)),
             Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 5),
+              padding: EdgeInsets.symmetric(horizontal: AppDimensions.padding6),
               child: HomeResearchererCustome(),
             ),
           ],

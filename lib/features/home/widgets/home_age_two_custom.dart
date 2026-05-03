@@ -61,8 +61,8 @@ class HomeAgeTwoCustom extends StatelessWidget {
                                 margin: EdgeInsetsGeometry.only(
                                   right: AppDimensions.padding14,
                                 ),
-                                height: getHeight(24),
-                                width: getWidth(24),
+                                height: getHeight(AppDimensions.imageHeight24),
+                                width: getWidth(AppDimensions.imageWeight24),
                                 decoration: BoxDecoration(
                                   boxShadow: [
                                     BoxShadow(
@@ -136,7 +136,7 @@ class HomeAgeTwoCustom extends StatelessWidget {
                                 width: getWidth(
                                   AppDimensions.containerWeight70,
                                 ),
-                                margin: EdgeInsets.symmetric(horizontal: 19),
+                                margin: EdgeInsets.symmetric(horizontal: getWidth(AppDimensions.padding18)),
                                 decoration: BoxDecoration(
                                   shape: BoxShape.circle,
                                   color: AppColors.elevatedSurfaceLight,

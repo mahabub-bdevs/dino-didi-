@@ -1,5 +1,4 @@
 import 'package:dino_dadi_app/core/core.dart';
-import 'package:dino_dadi_app/core/widgets/cloud_shape.dart';
 import 'package:dino_dadi_app/core/widgets/custome_container.dart';
 import 'package:dino_dadi_app/features/home/controller/home_Controller.dart';
 import 'package:flutter/material.dart';
@@ -56,8 +55,8 @@ class _HomeScreensState extends State<HomeScreens> {
                     child: SizedBox(
                       child: CustomSvgIcon(
                         assetName: ImagePath.didiTheExplorer,
-                        height: getHeight(64),
-                        width: getWidth(316),
+                        height: getHeight(AppDimensions.imageHeight64),
+                        width: getWidth(AppDimensions.imageHeight316),
                       ),
                     ),
                   ),
@@ -71,7 +70,7 @@ class _HomeScreensState extends State<HomeScreens> {
                       ),
                       child: Image.asset(
                         ImagePath.skyImage,
-                        width: getWidth(270),
+                        width: getWidth(AppDimensions.imageHeight270),
                       ),
                     ),
                   ),

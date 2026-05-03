@@ -22,7 +22,7 @@ class HomeResearchererCustome extends StatelessWidget {
       child: Column(
         children: [
           Padding(
-            padding: EdgeInsets.symmetric(horizontal: 20),
+            padding: EdgeInsets.symmetric(horizontal: AppDimensions.padding20),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -45,7 +45,7 @@ class HomeResearchererCustome extends StatelessWidget {
             boxImage: boxImageThree ?? ImagePath.dinosaureBoxImage,
           ),
           SizedBox(height: getHeight(AppDimensions.space130)),
-          SizedBox(height: 150, child: navBar ?? NavBarCustom()),
+          SizedBox(height: getHeight(AppDimensions.bottom150), child: navBar ?? NavBarCustom()),
         ],
       ),
     );
@@ -53,8 +53,8 @@ class HomeResearchererCustome extends StatelessWidget {
 
   _customContainer({String? boxImage, String? itemImage, String? text}) {
     return Container(
-      height: getHeight(177),
-      width: getWidth(177),
+      height: getHeight(getHeight(AppDimensions.containerHeight180)),
+      width: getWidth(AppDimensions.containerHeight180),
       decoration: BoxDecoration(
         image: DecorationImage(
           image: AssetImage(boxImage ?? ImagePath.emergencyBoxImage),
@@ -87,7 +87,7 @@ class HomeResearchererCustome extends StatelessWidget {
 
   _customedinosaureContainer({String? boxImage}) {
     return Container(
-      height: getHeight(180),
+      height: getHeight(AppDimensions.containerHeight180),
       width: getWidth(double.infinity),
       decoration: BoxDecoration(
         image: DecorationImage(
@@ -121,8 +121,8 @@ class HomeResearchererCustome extends StatelessWidget {
             right: 0,
             child: Image.asset(
               ImagePath.dinosauresImage,
-              height: getHeight(105),
-              width: getWidth(113),
+              height: getHeight(AppDimensions.imageHeight105),
+              width: getWidth(AppDimensions.imageWeight113),
             ),
           ),
           Positioned(

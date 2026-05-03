@@ -83,6 +83,7 @@ class AppDimensions {
   static const double logoSize200 = 200.0;
   static const double logoSize120 = 120.0;
   static const double bottom80 = 80.0;
+  static const double bottom150 = 150.0;
 
   // ─── Border Widths ─────────────────────────────────────────────────────────
   static const double border05 = 0.5;
@@ -194,6 +195,7 @@ class AppDimensions {
   static const double imageHeight24 = 24.0;
   static const double imageHeight28 = 28.0;
   static const double imageHeight30 = 30.0;
+  static const double imageHeight316 = 316.0;
   static const double imageHeight40 = 40.0;
   static const double imageHeight45 = 45.0;
   static const double imageHeight50 = 50.0;
@@ -207,6 +209,7 @@ class AppDimensions {
   static const double imageHeight110 = 110.0;
   static const double imageHeight135 = 135.0;
   static const double imageHeight100 = 100.0;
+  static const double imageHeight105 = 105.0;
   static const double imageWeight16 = 16.0;
   static const double imageWeight20 = 20.0;
   static const double imageWeight24 = 24.0;
@@ -217,12 +220,14 @@ class AppDimensions {
   static const double imageWeight64 = 64.0;
   static const double imageWeight165 = 165.0;
   static const double imageWeight110 = 110.0;
+  static const double imageWeight113 = 113.0;
   static const double imageWeight94 = 94.0;
   static const double imageWeight90 = 90.0;
   static const double imageWeight135 = 135.0;
   static const double imageWeight128 = 128.0;
   static const double imageHeight213 = 213.0;
   static const double imageHeight225 = 225.0;
+  static const double imageHeight270 = 270.0;
   static const double imageWeight213 = 213.0;
   static const double imageWeight345 = 345.0;
   static const double imageWeight315 = 315.0;
@@ -232,9 +237,11 @@ class AppDimensions {
   static const double containerHeight100 = 100.0;
   static const double containerHeight140 = 140.0;
   static const double containerHeight190 = 190.0;
+  static const double containerHeight180 = 180.0;
   static const double containerHeight260 = 260.0;
   static const double containerHeight420 = 440.0;
   static const double containerHeight50 = 50.0;
+  static const double containerHeight500 = 500.0;
   static const double containerHeight45 = 45.0;
   static const double containerHeight40 = 40.0;
   static const double containerHeight20 = 15.0;

@@ -49,7 +49,7 @@ class HomeTopCard extends StatelessWidget {
       child: Column(
         children: [
           SizedBox(
-            height: 315,
+            height: getHeight(AppDimensions.imageHeight316),
             child: Stack(
               children: [
                 Positioned(

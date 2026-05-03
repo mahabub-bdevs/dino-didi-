@@ -3,9 +3,7 @@ import 'package:dino_dadi_app/features/home/controller/home_Controller.dart';
 import 'package:dino_dadi_app/features/home/widgets/home_top_card.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-
 import '../widgets/home_age_V_two_screens.dart';
-import '../widgets/home_age_two_custom.dart';
 
 class HomeScreensAgeTwoVTwo extends StatelessWidget {
   const HomeScreensAgeTwoVTwo({super.key});
